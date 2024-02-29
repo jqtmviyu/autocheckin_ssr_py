@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "ssr",
+      "script": "main.py",
+      "interpreter": "python3",
+      "cron_restart": "0 23 * * *",
+      "autorestart": false,
+      "watch": false
+    }
+  ]
+}
